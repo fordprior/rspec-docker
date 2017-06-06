@@ -34,3 +34,13 @@ python clone.py
 3. Type `docker tag my_image username/my_image`
 4. Type `docker push username/my_image`
 
+***
+
+## TODO:
+- [x] create/run Docker image w/ Alpine & RSpec
+- [x] clone private Repo onto container
+- [ ] execute basic local RSpec test successfully
+- [ ] execute basic RSpec test successfully using HTTP
+- [ ] configure container to talk HTTP to microservices
+- [ ] excute all tests in repo
+- [ ] integrate w/ CircleCI
