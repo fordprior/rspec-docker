@@ -1,10 +1,10 @@
 ## Set up of this Docker build (Dockerfile + context files):
-1. Dockefile for Alpine base image w/ rspec, plus setup of Python script for repo cloning.
+1. Dockerfile for Alpine base image w/ RSpec.
 2. Python script for repo cloning
 3. A little directory w/ a spec file and a supporting file to run a Helloworld Rspec test
 
 ## Steps for building:
-1. Open the MINGW64 shell that comes with Docker Kinematic
+1. Open the MINGW64 shell from the UI of Docker Kinematic
 2. Navigate to whatever directory containing your build files
 3. Type the following: `docker build -t username/myimage .` (username must be correct; image name doesn't matter)
 * This will compile your new image based on the Docker.file and other required files within that directory.
